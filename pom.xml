@@ -27,6 +27,8 @@
         <module>lab-4-adjective</module>
         <module>lab-4-noun</module>
         <module>lab-4-sentence</module>
+        <module>lab5-word-server</module>
+        <module>lab5-sentence-server</module>
     </modules>
 
     <dependencyManagement>
