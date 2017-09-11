@@ -1,6 +1,6 @@
-package com.eperion.udemy.msb.lab6.controller;
+package com.eperion.udemy.msb.lab7.controller;
 
-import com.eperion.udemy.msb.lab6.service.SentenceService;
+import com.eperion.udemy.msb.lab7.service.SentenceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

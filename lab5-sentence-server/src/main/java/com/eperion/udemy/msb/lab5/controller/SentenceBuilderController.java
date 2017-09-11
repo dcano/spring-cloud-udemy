@@ -29,9 +29,9 @@ public class SentenceBuilderController {
                 ;
     }
 
-    public String getWord(String service) {
+    private String getWord(String service) {
         List<ServiceInstance> list = client.getInstances(service);
-        if (list != null && list.size() > 0 ) {
+        if (list != null && !list.isEmpty() ) {
             URI uri = list.get(0).getUri();
             if (uri !=null ) {
                 return (new RestTemplate()).getForObject(uri,String.class);
